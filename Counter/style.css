@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.countDisplay { 
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 5px;
+    font-family: monospace;
+}
+
+.changeCount{
+    font-size: 1.5rem;
+    margin: 15px 10px;
+}
+
+.changeCount #inputNum{
+    font-size: 1.5rem;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: rgb(125, 205, 255);
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: rgba(0, 145, 235, 0.616);
+}
+
+button:active{
+    background-color: rgb(26, 150, 227);
+}
+
+.errorDisplay{
+    font-size: 1.5rem;
+    color: red;
+}

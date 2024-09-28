@@ -1,0 +1,15 @@
+body{
+    transition: backgroundColor 0.3s, color 0.3s;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.container{
+    padding: 20px;
+    border: 2px solid black;
+}
+
